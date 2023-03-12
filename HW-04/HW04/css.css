@@ -1,11 +1,10 @@
 body {
     margin: 20px 35%;
-    border: 10px solid #000000;
+    border: 10px solid #d85af1;
     background-color:#a9d0e2 ;
     text-align: center;
     padding: 5px;
 }
-
 h1 {
     text-align: center;
     font-size: 40px;
