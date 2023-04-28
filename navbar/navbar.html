@@ -1,0 +1,44 @@
+<html>
+<head>
+    <style>
+        body{
+            margin: 0;
+        }
+        #nav{
+            background-color: lightpink;
+            width: 20px;
+            height: 100%;
+        }
+        #navMain{
+            overflow: hidden;
+            padding-left: 20px;
+            padding-top: 30px;
+        }
+        #nav a{
+            white-space: nowrap;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id ='nav' onmouseover="navWide()" onmouseout="navNarrow()">
+        <div id ='navMain'>
+            <p><a href="ME">子彈</a></p>
+            <p><a href="Facebook">臉書</a></p>
+            <p><a href="Instagram">Instagram</a></p>
+        </div>
+    </div>
+    <script>
+        function navWide(){
+            let nav =document.getElementById('nav')
+            nav.style.width='250px';
+        }
+        function navNarrow(){
+            let nav=document.getElementById('nav')
+            nav.style.width='20px';
+        }
+        
+    </script>
+</body>
+</html>
