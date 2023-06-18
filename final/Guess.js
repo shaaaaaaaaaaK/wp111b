@@ -15,10 +15,10 @@ function checkGuess() {
         result.textContent = '請輸入 1 到 100 之間的數字';
         result.style.color = 'red';
     } else if (guess < targetNumber) {
-        result.textContent = '再低一點';
+        result.textContent = '再高一點';
         result.style.color = 'black';
     } else if (guess > targetNumber) {
-        result.textContent = '再高一點';
+        result.textContent = '再低一點';
         result.style.color = 'black';
     } else {
         result.textContent = '對了！';
