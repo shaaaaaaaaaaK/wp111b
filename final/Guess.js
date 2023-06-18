@@ -15,14 +15,14 @@ function checkGuess() {
         result.textContent = '請輸入 1 到 100 之間的數字';
         result.style.color = 'red';
     } else if (guess < targetNumber) {
-        result.textContent = '太低了！再猜一次';
-        result.style.color = 'blue';
+        result.textContent = '再低一點';
+        result.style.color = 'black';
     } else if (guess > targetNumber) {
-        result.textContent = '太高了！再猜一次';
-        result.style.color = 'blue';
+        result.textContent = '再高一點';
+        result.style.color = 'black';
     } else {
-        result.textContent = '恭喜你猜對了！';
-        result.style.color = 'green';
+        result.textContent = '對了！';
+        result.style.color = 'red';
         guessInput.disabled = true;
     }
 
